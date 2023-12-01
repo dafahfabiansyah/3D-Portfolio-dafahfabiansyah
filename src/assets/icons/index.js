@@ -15,6 +15,7 @@ import sass from './sass.svg';
 import tailwindcss from './tailwindcss.svg';
 import typescript from './typescript.svg';
 import linkedin from './linkedin.svg';
+import instagram from './instagram.svg';
 import twitter from './twitter.svg';
 import car from './car.svg';
 import estate from './estate.svg';
@@ -26,6 +27,9 @@ import arrow from './arrow.svg';
 import contact from './contact.svg';
 import soundon from './soundon.png';
 import soundoff from './soundoff.png';
+import shoppi from '../images/shoppi.png';
+import bookstore from '../images/crud bookstore.png';
+import portfolioTailwindCss from '../images/tailwind.png';
 
 export {
   css,
@@ -46,6 +50,7 @@ export {
   typescript,
   linkedin,
   twitter,
+  instagram,
   car,
   estate,
   pricewise,
@@ -56,4 +61,7 @@ export {
   contact,
   soundon,
   soundoff,
+  shoppi,
+  bookstore,
+  portfolioTailwindCss,
 };

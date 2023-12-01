@@ -4,7 +4,7 @@ const CTA = () => {
   return (
     <section className="cta">
       <p className="cta-text">
-        Punya proyek yang lagi pikirkan?
+        Punya proyek yang lagi dipikirkan?
         <br className="sm:block hidden" />
         Mari kita buat sesuatu bersama!
       </p>

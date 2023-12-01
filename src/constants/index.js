@@ -1,5 +1,34 @@
 import { meta, shopify, starbucks, tesla } from '../assets/images';
-import { car, contact, css, estate, express, git, github, html, javascript, linkedin, mongodb, motion, mui, nextjs, nodejs, pricewise, react, redux, sass, snapgram, summiz, tailwindcss, threads, typescript } from '../assets/icons';
+import {
+  car,
+  contact,
+  css,
+  estate,
+  express,
+  git,
+  github,
+  html,
+  javascript,
+  linkedin,
+  mongodb,
+  motion,
+  mui,
+  nextjs,
+  nodejs,
+  pricewise,
+  react,
+  redux,
+  sass,
+  snapgram,
+  summiz,
+  tailwindcss,
+  threads,
+  typescript,
+  shoppi,
+  bookstore,
+  portfolioTailwindCss,
+  instagram,
+} from '../assets/icons';
 
 export const skills = [
   {
@@ -155,21 +184,33 @@ export const socialLinks = [
     iconUrl: linkedin,
     link: 'https://www.linkedin.com/in/YourLinkedInUsername',
   },
+  {
+    name: 'Instagram',
+    iconUrl: instagram,
+    link: 'https://www.instagram.com/@dafbians/',
+  },
 ];
 
 export const projects = [
   {
-    iconUrl: pricewise,
+    iconUrl: shoppi,
     theme: 'btn-back-red',
     name: 'Shoppi',
     description: 'E-Commerce yang dibuat dengan MongoDB, Express JS ,React JS, Node JS',
     link: 'https://github.com/dafahfabiansyah/eduwork-shoppi',
   },
   {
-    iconUrl: threads,
+    iconUrl: bookstore,
     theme: 'btn-back-green',
     name: 'Book Store',
     description: 'CRUD menggunakan dibuat dengan MongoDB, Express JS, React JS, Node JS',
     link: 'https://github.com/dafahfabiansyah/BookStore-Mern',
+  },
+  {
+    iconUrl: portfolioTailwindCss,
+    theme: 'btn-back-green',
+    name: 'Portfolio Tailwind CSS ',
+    description: 'Portfolio  HTML menggunakan Tailwind CSS',
+    link: 'https://github.com/dafahfabiansyah/portofolio-tailwind-css3',
   },
 ];

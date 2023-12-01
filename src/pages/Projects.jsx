@@ -22,10 +22,10 @@ const Projects = () => {
       <div className="flex flex-wrap my-20 gap-16">
         {projects.map((project) => (
           <div className="lg:w-[400px] w-full" key={project.name}>
-            <div className="block-container w-12 h-12">
-              <div className={`btn-back rounded-xl ${project.theme}`} />
+            <div className="flex flex-col">
+              {/* <div className={`btn-back rounded-xl ${project.theme}`} /> */}
               <div className="btn-front rounded-xl flex justify-center items-center">
-                <img src={project.iconUrl} alt="threads" className="w-1/2 h-1/2 object-contain" />
+                <img src={project.iconUrl} alt="threads" className="w-full h-full object-contain" />
               </div>
             </div>
 
