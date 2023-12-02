@@ -197,7 +197,7 @@ export const projects = [
     theme: 'btn-back-red',
     name: 'Shoppi',
     description: 'E-Commerce yang dibuat dengan MongoDB, Express JS ,React JS, Node JS',
-    link: 'https://github.com/dafahfabiansyah/eduwork-shoppi',
+    link: 'https://github.com/dafahfabiansyah/shoppi-e-commerce',
   },
   {
     iconUrl: bookstore,
