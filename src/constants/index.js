@@ -187,7 +187,7 @@ export const socialLinks = [
   {
     name: 'Instagram',
     iconUrl: instagram,
-    link: 'https://www.instagram.com/@dafbians/',
+    link: 'https://www.instagram.com/dafbians/',
   },
 ];
 
