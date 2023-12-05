@@ -219,7 +219,7 @@ export const projects = [
     iconUrl: emporio,
     theme: 'btn-back-green',
     name: 'Emporio Shop',
-    description: 'Consume API web page',
+    description: 'Web page yang menggunakan API Sistem Toko',
     link: 'https://github.com/dafahfabiansyah/Final-Project-Sisko',
   },
 ];
