@@ -183,7 +183,7 @@ export const socialLinks = [
   {
     name: 'LinkedIn',
     iconUrl: linkedin,
-    link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+    link: 'https://www.linkedin.com/in/dafah-fabian-syah-688755232/',
   },
   {
     name: 'Instagram',
