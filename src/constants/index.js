@@ -28,6 +28,7 @@ import {
   bookstore,
   portfolioTailwindCss,
   instagram,
+  emporio,
 } from '../assets/icons';
 
 export const skills = [
@@ -193,6 +194,7 @@ export const socialLinks = [
 
 export const projects = [
   {
+    // iconUrl: shoppi,
     iconUrl: shoppi,
     theme: 'btn-back-red',
     name: 'Shoppi',
@@ -212,5 +214,12 @@ export const projects = [
     name: 'Portfolio Tailwind CSS ',
     description: 'Portfolio  HTML menggunakan Tailwind CSS',
     link: 'https://github.com/dafahfabiansyah/portofolio-tailwind-css3',
+  },
+  {
+    iconUrl: emporio,
+    theme: 'btn-back-green',
+    name: 'Emporio Shop',
+    description: 'Consume API web page',
+    link: 'https://github.com/dafahfabiansyah/Final-Project-Sisko',
   },
 ];
