@@ -1,11 +1,23 @@
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 
 import { CTA } from '../components';
+import { useState } from 'react';
 import { experiences, skills } from '../constants';
+import SkillsComponent from '../components/SkillComponent';
 
 import 'react-vertical-timeline-component/style.min.css';
 
 const About = () => {
+  const [selectedSkill, setSelectedSkill] = useState(null);
+
+  const handleSkillClick = (skill) => {
+    setSelectedSkill(skill);
+  };
+
+  const handleModalClose = () => {
+    setSelectedSkill(null);
+  };
+
   return (
     <section className="max-container">
       <head>
@@ -19,7 +31,7 @@ const About = () => {
         <p>Fresh graduate yang suka pemrogaman tapi masih suka copas, hehe aku mah masih pemula</p>
       </div>
 
-      <div className="py-10 flex flex-col">
+      {/* <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
 
         <div className="mt-16 flex flex-wrap gap-12">
@@ -27,10 +39,31 @@ const About = () => {
             <div className="block-container w-20 h-20" key={skill.name}>
               <div className="btn-back rounded-xl" />
               <div className="btn-front rounded-xl flex justify-center items-center">
-                <img src={skill.imageUrl} alt={skill.name} className="w-1/2 h-1/2 object-contain" />
+                <img src={skill.imageUrl} title={skill.name} alt={skill.type} className="w-1/2 h-1/2 object-contain" />
               </div>
             </div>
           ))}
+        </div>
+      </div> */}
+      <div className="py-10 flex flex-col">
+        <h3 className="subhead-text">My Skills</h3>
+
+        <div className="mt-16 flex flex-wrap gap-12">
+          {skills.map((skill) => (
+            <div className="block-container w-20 h-20 relative cursor-pointer" key={skill.name} onClick={() => handleSkillClick(skill)}>
+              <div className="btn-back rounded-xl" />
+              <div className="btn-front rounded-xl flex justify-center items-center">
+                <img src={skill.imageUrl} title={skill.name} alt={skill.type} className="w-1/2 h-1/2 object-contain" />
+              </div>
+            </div>
+          ))}
+
+          {selectedSkill && (
+            <div className="modal" onClick={handleModalClose}>
+              <p>{selectedSkill.name}</p>
+              <p>{selectedSkill.type}</p>
+            </div>
+          )}
         </div>
       </div>
 

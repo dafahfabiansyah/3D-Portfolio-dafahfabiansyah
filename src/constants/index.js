@@ -39,7 +39,7 @@ export const skills = [
   },
   {
     imageUrl: express,
-    name: 'Express',
+    name: 'Express JS',
     type: 'Backend',
   },
   {
