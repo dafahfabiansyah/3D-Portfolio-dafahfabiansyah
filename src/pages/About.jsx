@@ -3,7 +3,6 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import { CTA } from '../components';
 import { useState } from 'react';
 import { experiences, skills } from '../constants';
-import SkillsComponent from '../components/SkillComponent';
 
 import 'react-vertical-timeline-component/style.min.css';
 
