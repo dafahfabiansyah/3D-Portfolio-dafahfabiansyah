@@ -31,8 +31,10 @@ import shoppi from '../images/shoppi.png';
 import bookstore from '../images/crud bookstore.png';
 import portfolioTailwindCss from '../images/tailwind.png';
 import emporio from '../images/Emporio.png';
+import zustand from './zustand.png';
 
 export {
+  zustand,
   css,
   express,
   git,

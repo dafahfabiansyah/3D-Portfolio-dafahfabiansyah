@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from '../assets/images';
+import { meta, shopify, starbucks, tesla, eduwork, animelist } from '../assets/images';
 import {
   car,
   contact,
@@ -29,6 +29,7 @@ import {
   portfolioTailwindCss,
   instagram,
   emporio,
+  zustand,
 } from '../assets/icons';
 
 export const skills = [
@@ -77,11 +78,11 @@ export const skills = [
   //     name: 'Material-UI',
   //     type: 'Frontend',
   //   },
-  //   {
-  //     imageUrl: nextjs,
-  //     name: 'Next.js',
-  //     type: 'Frontend',
-  //   },
+  {
+    imageUrl: nextjs,
+    name: 'Next.js',
+    type: 'Frontend',
+  },
   {
     imageUrl: nodejs,
     name: 'Node.js',
@@ -107,64 +108,68 @@ export const skills = [
     name: 'Tailwind CSS',
     type: 'Frontend',
   },
-  //   {
-  //     imageUrl: typescript,
-  //     name: 'TypeScript',
-  //     type: 'Frontend',
-  //   },
+  {
+    imageUrl: typescript,
+    name: 'TypeScript',
+    type: 'Frontend',
+  },
+  {
+    imageUrl: zustand,
+    name: 'Zustand',
+    type: 'Frontend',
+  },
 ];
 
 export const experiences = [
-  {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#accbe1',
-    date: 'March 2020 - April 2021',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#fbc3bc',
-    date: 'Jan 2021 - Feb 2022',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#b7e4c7',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
+  // {
+  //   title: 'React.js Developer',
+  //   company_name: 'Starbucks',
+  //   icon: starbucks,
+  //   iconBg: '#accbe1',
+  //   date: 'March 2020 - April 2021',
+  //   points: [
+  //     'Developing and maintaining web applications using React.js and other related technologies.',
+  //     'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+  //     'Implementing responsive design and ensuring cross-browser compatibility.',
+  //     'Participating in code reviews and providing constructive feedback to other developers.',
+  //   ],
+  // },
+  // {
+  //   title: 'React Native Developer',
+  //   company_name: 'Tesla',
+  //   icon: tesla,
+  //   iconBg: '#fbc3bc',
+  //   date: 'Jan 2021 - Feb 2022',
+  //   points: [
+  //     'Developing and maintaining web applications using React.js and other related technologies.',
+  //     'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+  //     'Implementing responsive design and ensuring cross-browser compatibility.',
+  //     'Participating in code reviews and providing constructive feedback to other developers.',
+  //   ],
+  // },
+  // {
+  //   title: 'Web Developer',
+  //   company_name: 'Shopify',
+  //   icon: shopify,
+  //   iconBg: '#b7e4c7',
+  //   date: 'Jan 2022 - Jan 2023',
+  //   points: [
+  //     'Developing and maintaining web applications using React.js and other related technologies.',
+  //     'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+  //     'Implementing responsive design and ensuring cross-browser compatibility.',
+  //     'Participating in code reviews and providing constructive feedback to other developers.',
+  //   ],
+  // },
   {
     title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
+    company_name: 'Eduwork.id',
+    icon: eduwork,
     iconBg: '#a2d2ff',
-    date: 'Jan 2023 - Present',
+    date: 'June 2023 - November 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Developed and designed a web application, creating a more engaging user interface, to improve overall presentation and design using React.js and Tailwind CSS',
+      'Apply advanced techniques for database management, optimize data retrieval and storage processes to improve overall system efficiency, using MySQL and MongoDB.',
+      'Developed APIs to allow backend and front-end applications to connect and communicate with each other using Node Js, Express JS, MongoDB and MySQL.',
     ],
   },
 ];
@@ -194,7 +199,6 @@ export const socialLinks = [
 
 export const projects = [
   {
-    // iconUrl: shoppi,
     iconUrl: shoppi,
     theme: 'btn-back-red',
     name: 'Shoppi',
@@ -221,5 +225,12 @@ export const projects = [
     name: 'Emporio Shop',
     description: 'Web page yang menggunakan API Sistem Toko',
     link: 'https://github.com/dafahfabiansyah/Final-Project-Sisko',
+  },
+  {
+    iconUrl: animelist,
+    theme: 'btn-back-green',
+    name: 'AnimeList',
+    description: 'Web page untuk mencari rekomendasi anime hits',
+    link: 'https://github.com/dafahfabiansyah/CuyAnimeList',
   },
 ];
